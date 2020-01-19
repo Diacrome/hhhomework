@@ -31,3 +31,4 @@ def count_symbols(some_string):
     list_symbols=list({character for character in some_string})
     count_symbols = [some_string.count(character) for character in list_symbols]
     return dict(zip(list_symbols, count_symbols))
+    
